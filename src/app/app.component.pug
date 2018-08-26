@@ -13,20 +13,20 @@
           i.fa.fa-envelope
           a(href='mailto: hancjfg5@gmail.com') hancjfg5@gmail.com
         li.linkedin
-          i.fa.fa-linkedin
+          i.fab.fa-linkedin-in
           a(href='https://kr.linkedin.com/in/cheolho-han-8b1a65114' target='_blank') Linkedin
         li.github
-          i.fa.fa-linkedin
+          i.fab.fa-github
           a(href='https://github.com/smile7sky' target='_blank') Github
         li.facebook
-          i.fa.fa-facebook
+          i.fab.fa-facebook-f
           a(href='https://www.facebook.com/profile.php?id=100000887546854' target='_blank') Facebook
     .education-container.container-block
       h2.container-block-title
         span.glyphicon.glyphicon-education
         |  Education
       .item
-        h4.degree Bachelor of Science in Computer Engineering
+        h4.degree BSc in Computer Engineering
         h5.meta Hongik University in Korea
         .time 2008 - 2016
     .interests-container.container-block
@@ -50,7 +50,8 @@
   .main-wrapper
     section.section.summary-section
       h2.section-title
-        i.fa.fa-user
+        span.icon-holder
+          i.fa.fa-user
         | Career Profile
       .summary
         p Hello,
@@ -60,7 +61,8 @@
           | I am proficient using general purpose languages, such as C/C++, JAVA, Python, web languages, such as HTML, CSS, JavaScript, jQuery and various frameworks such as AngularJS, Spring, Hibernate. I have 3 years experience on C++ MFC window applications and 2+ years experience on web development based on Java EE. I&apos;m familiar with using version control tools, such as SVN, Git and issue tracking tools, such as Redmine tool.
     section.section.experiences-section
       h2.section-title
-        i.fa.fa-briefcase
+        span.icon-holder
+          i.fa.fa-briefcase
         | Experiences
       .item
         .meta
@@ -105,7 +107,8 @@
             | 2. Parsed data stored in a database into XML or JSON data type, and expressed them to user interface elements, like Table, Chart, etc.
     section.section.experiences-section
       h2.section-title
-        i.fa.fa-briefcase
+        span.icon-holder
+          i.fa.fa-briefcase
         | Activities
       .item
         .meta
@@ -121,7 +124,8 @@
             | 2. Participated in software development project organized by Samsung Electronics R&amp;D Team, designing web system based on Spring, Bootstrap, MySQL, Hibernate and Chart &amp; Table Library based on jQuery.
     section.section.projects-section
       h2.section-title
-        i.fa.fa-archive
+        span.icon-holder
+          i.fa.fa-archive
         | Projects
       .item
         .meta
@@ -185,52 +189,54 @@
           br
     section.skills-section.section
       h2.section-title
-        i.fa.fa-rocket
+        span.icon-holder
+          i.fa.fa-rocket
         | Skills &amp; Proficiency
       .skillset
         .item
           h3.level-title C &amp; C++ &amp; MFC
-          .level-bar
-            .level-bar-inner(style='width: 99%')
+          .progress.level-bar
+            .progress-bar.theme-progress-bar(style='width: 99%')
         .item
           h3.level-title Java &amp; Spring Framework &amp; Hibernate
-          .level-bar
-            .level-bar-inner(style='width: 99%')
+          .progress.level-bar
+            .progress-bar.theme-progress-bar(style='width: 99%')
         .item
           h3.level-title Javascript &amp; jQuery
-          .level-bar
-            .level-bar-inner(style='width: 99%')
+          .progress.level-bar
+            .progress-bar.theme-progress-bar(style='width: 99%')
         .item
           h3.level-title Angular &amp; Angular JS
-          .level-bar
-            .level-bar-inner(style='width: 99%')
+          .progress.level-bar
+            .progress-bar.theme-progress-bar(style='width: 99%')
         .item
           h3.level-title HTML5 &amp; CSS &amp; Bootstrap
-          .level-bar
-            .level-bar-inner(style='width: 99%')
+          .progress.level-bar
+            .progress-bar.theme-progress-bar(style='width: 99%')
         .item
           h3.level-title MySQL
-          .level-bar
-            .level-bar-inner(style='width: 80%')
+          .progress.level-bar
+            .progress-bar.theme-progress-bar(style='width: 80%')
         .item
           h3.level-title Python
-          .level-bar
-            .level-bar-inner(style='width: 80%')
+          .progress.level-bar
+            .progress-bar.theme-progress-bar(style='width: 80%')
         .item
           h3.level-title Node JS
-          .level-bar
-            .level-bar-inner(style='width: 50%')
+          .progress.level-bar
+            .progress-bar.theme-progress-bar(style='width: 50%')
         .item
           h3.level-title Mongo DB
-          .level-bar
-            .level-bar-inner(style='width: 50%')
+          .progress.level-bar
+            .progress-bar.theme-progress-bar(style='width: 50%')
         .item
           h3.level-title Photoshop
-          .level-bar
-            .level-bar-inner(style='width: 30%')
+          .progress.level-bar
+            .progress-bar.theme-progress-bar(style='width: 30%')
     section.section.experiences-section
       h2.section-title
-        i.fa.fa-heart
+        span.icon-holder
+          i.fa.fa-heart
         | Volunteer
       .item
         .meta
@@ -241,3 +247,11 @@
         .details
           p
             | The Siloam Community Relief Center in Korea is an organization for a person who is visually handicapped. I volunteered to record books with my voice in order for them to be able to listen that books instead of reading it.
+footer.footer
+  .text-center
+    small.copyright
+      | Designed with 
+      i.fa.fa-heart
+      |  by 
+      a(href='https://themes.3rdwavemedia.com' target='_blank') Xiaoying Riley
+      |  for developers
